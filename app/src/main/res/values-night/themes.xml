@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- Splash screen theme -->
-	<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-		<item name="android:windowBackground">@drawable/bg_splash</item>
-	</style>
-
 	<!-- Base application theme. -->
-	<style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+	<style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
 		<!-- Customize your theme here. -->
 		<item name="colorPrimary">@android:color/white</item>
 		<item name="colorPrimaryDark">@color/color_primary_dark</item>
@@ -14,8 +9,19 @@
 
 		<item name="colorAccentedSurface">@color/color_divider_light</item>
 		<item name="colorIcon">@android:color/white</item>
+		<item name="colorMessage">@color/color_gray</item>
+		<item name="colorArchiveIcon">@color/color_gray_dark</item>
+		<item name="colorCounterBackground">@color/color_gray_dark</item>
+		<item name="colorIndicatorBackground">@color/color_accent_night</item>
+		<item name="colorIconDone">@color/color_accent_night</item>
+		<item name="colorToolbar">@color/color_toolbar_night</item>
+		<item name="colorSnackbarBackground">@android:color/white</item>
+		<item name="colorSnackbarTextColor">@color/color_snackbar_text_night</item>
+		<item name="colorSwipeBackground">@color/color_accent_night</item>
+		<item name="colorChipBackground">@color/color_chip_background_night</item>
+		<item name="colorChipButtonBackground" >@color/color_gray</item>
+
 		<item name="colorDivider">@color/color_divider_dark</item>
 		<item name="android:statusBarColor">@android:color/black</item>
-
 	</style>
 </resources>
